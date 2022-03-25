@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: #000;
+    box-sizing: border-box;
 }
 
 .loader{
@@ -10,14 +11,11 @@ body{
     height: 200px;
     top: 30%;
     left: 40%;
-    box-sizing: border-box;
-    background: #000;
     transition: translate(-50%,-50%);
 }
 
 .loader .face{
     position: absolute;
-    border: 2px solid #121212;
 }
 
 .loader .face.face1{
@@ -25,12 +23,10 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background: #090909;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    border-radius: 50%;
+    border-radius: 100%;
     border-left: 2px solid #ffff00;
     border-top: 2px solid #ffff00;
-    animation: animate 3s linear infinite;
+    animation: animate 10s linear infinite;
 }
 
 .loader .face.face2{
@@ -38,12 +34,10 @@ body{
     left: 30px;
     right: 30px;
     bottom: 30px;
-    background: #090909;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    border-radius: 50%;
+    border-radius: 100%;
     border-right: 2px solid #03a9f4;
     border-bottom: 2px solid #03a9f4;
-    animation: animate 3s linear reverse infinite;
+    animation: animate 10s linear reverse infinite;
 }
 
 .loader .face .circle{
@@ -51,8 +45,8 @@ body{
     top: calc(50% - 1px);
     left: 50%;
     width: 50%;
-    height: 2px;
-    /* background: #fff; */
+    height: 1.5px;
+    background: #fff;
     transform-origin: left;
 }
 
@@ -69,8 +63,7 @@ body{
     position: absolute;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
-    background: #fff;
+    border-radius: 100%;
     top: -4px;
     right: -6px;
 }
