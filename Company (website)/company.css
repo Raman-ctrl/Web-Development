@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+body {
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+}
+
+/* navbar */
+.navbar {
+  background-color: #f4511e;
+}
+
+a {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+ul a:hover {
+  background-color: #fff;
+  color: #f4511e;
+}
+
+.mynavlinks ul {
+  text-transform: uppercase;
+  margin-left: 35%;
+  letter-spacing: 2px;
+}
+
+ul li a {
+  margin: auto 10px;
+}
+
+.jumbotron {
+  background-color: #f4511e;
+  color: #fff;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.one {
+  font-size: 30px;
+}
+
+.logo {
+  font-size: 200px;
+  color: #f4511e;
+}
+
+.logo-small {
+  color: #f4511e;
+  font-size: 50px;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.bg-grey {
+  background-color: #f2f2f2;
+}
+
+.img-thumbnail {
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 0;
+}
+
+.img-thumbnail img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10px;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+
+  .carousel-indicators li {
+    background-color: #f4511e;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  
+  .carousel-indicators li.active {
+    background-color: #f4511e;    
+  }
+
+  .carousel-control-next span,
+  .carousel-control-prev span{
+    color: #f4511e;
+  }
+.pricing{
+  border: 1px solid #f4511e;
+  max-width: 30.5% !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin: auto;
+}
+.pricing:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.233);
+}
+
+  .body p{
+    line-height: 2em;
+    color: #818181;
+  }
+
+  .foot h5{
+    font-size: 2em;
+    color: #818181;
+    font-weight: bolder;
+  }
+
+  .btn{
+    background-color: #f4511e;
+    color: #fff;
+    margin: 20px;
+  }

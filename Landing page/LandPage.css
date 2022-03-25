@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+
+
+.header{
+    max-width: 100%;
+    height: 65px;
+    background-color: #000;
+}
+
+.navbar{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    position: relative;
+    top: 8px;
+    width: 70%;
+    height: 50px;
+}
+
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list li{
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    margin: 10px;
+    top: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: #fff;
+}
+
+a:visited{
+    color: rgb(236, 195, 195);
+}
+
+a:active{
+    color: red;
+}
+
+a:hover{
+    color: rgb(219, 243, 8);
+}
+
+a.active:hover{
+    color: #fff;
+}
+
+
+/* section */
+
+
+.section1{
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+}
+
+.heading{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.vertical-line{
+    max-width: 20%;
+    height: 10px;
+    background: linear-gradient(45deg, rgb(228, 206, 10), rgb(240, 235, 100), rgb(235, 55, 10));
+    border-radius: 12px;
+    left: 40%;
+    position: relative;
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.img-1 img{
+    max-width: 100%;
+    height: 800px;
+}
+
+
+/* section2 */
+
+
+.section2{
+    background-image: url("/Images/dance.jpg");
+    max-width: 100%;
+    height: 100vh;
+}
+
+.text{
+    max-width: 70%;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: rgba(235, 192, 198, 0.014);
+    box-shadow: 5px 5px 10px black;
+    border-radius: 12px;
+    border: 1px solid rgba(231, 216, 216, 0.164);
+    padding: 40px;
+    color: #fff;
+}
+
+.heading2{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: monospace;
+}
+
+.para-2{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(210, 245, 10);
+}
+
+.para-3{
+    text-transform: capitalize;
+    font-size: 1em;
+    position: relative;
+    top: 25px;
+    font-weight: lighter;
+    font-family:fantasy ;
+}
+
+
+/* Image */
+
+
+.picture{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Table */
+
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .table{
+    border: 2px solid #000;
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #000;
+} */
+
+
+.tip{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+
+.caption{
+    color: #000;
+    font-size: 3em;
+    padding: 10px;
+}
+
+
+.th{
+    background-color: #000;
+    color: #fff;
+}
+
+
+td ,th{
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+/* Video */
+
+
+
+.section-5{
+    max-width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    background: linear-gradient(90deg,rgb(201,222,123),rgb(109,222,107),rgb(111, 222, 233));
+}
+
+
+.video{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+.vid{
+    font-size: 4em;
+    font-family: serif;
+    color: #000;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+
+/* card section */
+
+
+.section-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.box{
+    max-width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+
+
+.card{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(45deg,rgb(133, 163, 52),rgb(59, 209, 104),rgb(160, 35, 160));
+}
+
+.logo-1{
+    max-width: 30%;
+    height: 200px;
+}
+
+.guide{
+    height: 100px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+/* Images section */
+
+
+.section-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgbox{
+    position: relative;
+}
+
+
+.slip{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, rgb(216, 52, 153), rgb(184, 52, 196), rgb(209, 134, 36));
+    max-width: 100%;
+    height: 100vh;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cardsec{
+    max-width: 300px;
+    height: 400px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border-radius: 12px;
+    height: 180px;
+    clip-path: circle(170px at center 0);
+}
+
+.img img{
+    max-width: 50%;
+    height: 50%;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    position: relative;
+}
+
+.paracard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+}

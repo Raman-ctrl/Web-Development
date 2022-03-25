@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Template Again</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top shadow p-6 mb-4">
+
+        <a href="#hamburger" class="navbar-brand">Gourmet au Catering</a>
+
+        <button class="navbar-toggler" data-toggle="collapse" type="button" data-target="#btncollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="btncollapse">
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- Hamburger Carousel -->
+
+    <div class="carousel slide" data-ride="carousel" id="hamburger">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/Images/hamburger.jpg" alt="Hamburger" width="100%" height="auto">
+                <div class="carousel-caption" style="color: black;">
+                    <h3>Le Catering</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div class="d-flex p-3" id="about">
+        <div class="p-2">
+            <img src="/Images/tablesetting2.jpg" alt="tablesetting2" width="100%" height="100%">
+        </div>
+        <div class="p-2" style="max-width: 50%; height:auto; margin-top: 100px;">
+            <center>
+                <h1>About Catering</h1> 
+                <h5>Tradition since 1889</h5>
+            </center>
+            
+            <p><strong>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <mark>seasonal</mark> ingredients.</strong></p>
+    
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Menu Section -->
+
+    <div class="d-flex p-3" id="menu">
+        <div class="p-2">
+            <center><h1 style="margin-bottom: 40px; margin-top: 100px;">Our Menu</h1></center>
+            <h4>Bread Basket</h4>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <h4>Honey Almond Granola with Fruits</h4>
+            <P>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</P>
+            <h4>Belgian Waffle</h4>
+            <P>Vanilla flavored batter with malted flour 7.50</P>
+            <h4>Scrambled eggs</h4>
+            <P>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</P>
+            <h4>Blueberry Pancakes</h4>
+            <P>With syrup, butter and lots of berries 8.50</P>
+        </div>
+        <div class="p-2">
+            <img src="/Images/tablesetting.jpg" alt="tablesetting" width="100%" height="100%">
+        </div>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Contact Section -->
+
+    <div class="d-flex p-3" id="contact">
+        <div class="p-2" style="margin-top: 60px;">
+            <h1>Contact</h1>
+            <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+
+            <address style="font-size: 1.2em; color: rgb(163, 163, 216); text-transform: capitalize;">
+                Catering Service, 42nd Living St, 43043 New York, NY
+            </address>
+
+            <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+            <input type="text" class="form-control border border-0" placeholder="Name">
+            <hr class="my-4">
+            <input type="number" class="form-control border border-0" value="0">
+            <hr class="my-4">
+            <input type="datetime-local" class="form-control border border-0" value="2021-11-16T20:00">
+            <hr class="my-4">
+            <input type="text" class="form-control border border-0" placeholder="Message/Special requirements">
+            <hr class="my-4">
+            <button class="btn btn-secondary" type="submit">Send Message</button>
+    
+        </div>
+    </div>
+
+</body>
+</html>
