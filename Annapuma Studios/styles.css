@@ -8,7 +8,9 @@
     box-sizing: border-box;
 }
 
-.nav-link{
+.collapse .nav-link{
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: #000 !important;
+    padding: 7px 15px;
+    font-size: 14px;
 }
