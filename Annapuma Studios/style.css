@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+
+ul.nav-pills {
+  top: 100px;
+  left: 80em;
+  position: fixed;
+}
+
+ul.nav-pills .nav-item .nav-link {
+  color: #9d9d9d !important;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+/* ul.nav-pills .nav-item .nav-link:active {
+  color: rgb(243, 30, 30);
+} */
+
+.studio {
+  background-image: url(/Img/studio.jpg);
+}
+
+.production {
+  background-image: url(/Img/production.jpg);
+}
+
+.postpro {
+  background-image: url(/Img/postpro.jpg);
+}
+
+.film {
+  background-image: url(/Img/filmschool.jpg);
+}
+
+.about {
+  background-image: url(/Img/aboutbanner.jpg);
+}
+
+.bgimage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+#home,
+#studio,
+#production,
+#postpro,
+#film,
+#about {
+  height: 110vh;
+  width: 100%;
+}
+
+div.container {
+  position: relative;
+  padding-top: 50px;
+  top: 63%;
+  left: -18%;
+  bottom: 0%;
+  padding-bottom: 0;
+  height: 40vh;
+  border-left: 1px solid red;
+  width: 70vh;
+}
+
+span {
+  color: #d83135;
+  font-weight: bold;
+}
+
+.fa-solid {
+  color: red;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 55px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 42px;
+}
+
+button {
+  font-size: 14px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: transparent !important;
+  border: 2px solid snow;
+}
+
+/* #home img:nth-child(1) {
+  height: 98vh;
+  position: relative;
+  left: -5%;
+} */
+
+#home img:nth-child(2) {
+  height: 40vh;
+  position: relative;
+  left: 6em;
+  top: -6em;
+}
+
+ul.nav-pills .nav-item .nav-link.active {
+  color: red !important;
+}
+
+ul.nav-pills{
+    text-align: right;
+}
+
+.row2 .col-md-7 .img-fluid{
+    max-width: 100%;
+    /* width: 500px; */
+    height:900px;
+    position: relative;
+    /* left: 10%; */
+}
+
+.row2 .col-md-5 .img-fluid{
+    max-width: 100%;
+    width: 300px;
+    position: relative;
+    top: 15%;
+}
+
+.row2 .col-md-5 span:nth-child(1){
+    color: black;
+}
+
+.row2 .col-md-5 p{
+    position: relative;
+    top: 15%;
+    left: -28%;
+    font-size: 26px;
+    text-align: center;
+}
+
+span.akki{
+    font-size: 18px !important;
+    left: -10%;
+}
+
+.row2 .col-md-5 p{
+    line-height: 1.3;
+    word-spacing: 10px;
+}
+
+/* Contact us Page */
+
+
+
